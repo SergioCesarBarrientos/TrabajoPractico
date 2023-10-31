@@ -4,14 +4,12 @@
 
 }
 
-header {
 
-    
+header {
     height: 100px;
-   
 }
 
-.header-contenido{
+.header-contenido {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -39,12 +37,11 @@ header {
 
 }
 
-
 /*PARTE DOS DEL HEADER*/
 
 .menu {
-   margin: 30px 50px 0 0;
-  
+    margin: 30px 50px 0 0;
+
 }
 
 .navitems {
@@ -92,16 +89,6 @@ header {
 }
 
 
-.logo i, .navitems i{
-    font-size: 30px;
-     cursor: pointer;
-    display: none;
-     transition: 0,4s;
-}
-
-.mostrar-menu, .esconder-menu {
-    display: none;
-}
 
 /*SECTION 1*/
 
@@ -404,65 +391,65 @@ header {
     flex-direction: column;
 }
 
-.fotos img{
+.fotos img {
     width: 150px;
     height: 150px;
 }
 
-.fotos-uno{
+.fotos-uno {
     position: relative;
     z-index: 10;
- }
- 
- .fotos-dos{
-     position: relative;
-     z-index: 20;
-     bottom: 130px;
-     left: 25px;
- }
+}
 
-.perfil{
+.fotos-dos {
+    position: relative;
+    z-index: 20;
+    bottom: 130px;
+    left: 25px;
+}
+
+.perfil {
     display: flex;
     justify-content: space-around;
     margin-top: 10%;
 }
 
-.perfil .fotos{
-  padding-right: 25px;
- 
+.perfil .fotos {
+    padding-right: 25px;
+
 }
 
-.info{
-   margin-top: 15%;
-   padding-left: 25px;
+.info {
+    margin-top: 15%;
+    padding-left: 25px;
 }
 
-.info h3{
+.info h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     padding-bottom: 5px;
 }
 
-.info h4{
+.info h4 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #A9A9A9;
     font-weight: 500;
     padding-bottom: 15px;
 }
 
-.info i{
+.info i {
     font-size: 20px;
     margin: 5px 10px 0 0;
 }
 
-.perfil-dos{
+.perfil-dos {
     text-align: center;
     margin: 0 20% 30px 20%;
     position: relative;
     bottom: 80px;
 }
 
-.perfil-dos p{
+.perfil-dos p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: grey;
     font-style: italic;
@@ -474,7 +461,7 @@ header {
 
 /*QUINTA SECTION*/
 
-.contenedor-cinco{
+.contenedor-cinco {
     width: 100%;
     height: auto;
     display: flex;
@@ -483,17 +470,17 @@ header {
 }
 
 
-.caja1{
+.caja1 {
     margin: 30px 0 0 130px;
 }
 
-.caja1 h2{
+.caja1 h2 {
     font-size: 50px;
     font-weight: 600;
-    
+
 }
 
-.caja1 p{
+.caja1 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: grey;
     font-size: 20px;
@@ -532,49 +519,54 @@ header {
     color: white;
 }
 
-.caja2 img{
+.caja2 img {
     width: 150px;
     height: 150px;
 }
 
 
-.caja2{
+.caja2 {
     margin-top: 50px;
     margin-right: 150px;
 }
-.caja2 .turismo, .turismo-dos{
-   display: flex;
-   justify-content: space-between;
-  
+
+.caja2 .turismo,
+.turismo-dos {
+    display: flex;
+    justify-content: space-between;
+
 }
 
 
-.turismo{
+.turismo {
     margin-bottom: 80px;
 }
 
-.montaña, .paisaje{
+.montaña,
+.paisaje {
     margin-right: 35px;
-    
+
 }
 
-.montaña-info h2, .paisaje-info h2{
+.montaña-info h2,
+.paisaje-info h2 {
     font-weight: 600;
     margin-bottom: 15px;
-    
+
 }
 
-.montaña-info p, .paisaje-info p{
+.montaña-info p,
+.paisaje-info p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: grey;
     line-height: 20px;
-    word-spacing: 1px; 
+    word-spacing: 1px;
 }
 
 /*footer*/
 
 
-.footer-contenido{
+.footer-contenido {
     background-color: #2B2928;
     width: 90%;
     height: auto;
@@ -584,26 +576,27 @@ header {
     align-items: center;
 }
 
-.logo-dos img{
+.logo-dos img {
     width: 50px;
     height: 50px;
 }
 
-.logo-dos{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+.logo-dos {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    ;
     margin: 50px 0 120px 100px;
     display: flex;
     align-items: center;
 }
 
-.logo-dos h2{
+.logo-dos h2 {
     color: white;
     font-size: 35px;
     font-weight: 100;
-    padding: 10px ;
+    padding: 10px;
 }
 
-.footer-lista{
+.footer-lista {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 5px 0 0 30px;
     padding: auto;
@@ -611,50 +604,51 @@ header {
     justify-content: space-around;
 }
 
-.footer-lista ul{
+.footer-lista ul {
     list-style: none;
     padding: 0 100px 0 100px;
 }
 
-.footer-lista li{
+.footer-lista li {
     margin: auto;
     padding-bottom: 25px;
 }
 
-.footer-lista li a, .footer-info a{
+.footer-lista li a,
+.footer-info a {
     text-decoration: none;
     list-style: none;
     color: grey;
-   
+
 }
 
-.footer-info{
+.footer-info {
     margin: 100px 0 120px 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.footer-info ul{
+.footer-info ul {
     list-style: none;
 
 }
 
-.footer-info li{
+.footer-info li {
     padding-bottom: 15px;
 }
 
 
-.email{
-   padding: 10px 15px;
-   border: 0;
-   color: white;
-   background-color: #646464;
+.email {
+    padding: 10px 15px;
+    border: 0;
+    color: white;
+    background-color: #646464;
 }
 
-::placeholder{
+::placeholder {
     color: rgb(170, 169, 169);
 }
 
-.btn{
+.btn {
     font-weight: 600;
     margin-left: 10px;
     padding: 10px 20px;
@@ -663,68 +657,263 @@ header {
     color: #ffffff;
 }
 
-.footer-iconos{
+.footer-iconos {
     margin-top: 20px;
 }
 
-.fa-twitter{
+.fa-twitter {
     padding-right: 40px;
 }
 
 
-/*MEDIA QUERIES*/   
+/*MEDIA QUERIES   
 
-/*HEADER*/
-@media all and (max-width: 768px) {
+/*mobile*/
+@media all and (max-width:480px) {
 
-    .header-contenido{
-        width: 100%;
-        align-items: center;
+     .header-contenido{
         flex-direction: column;
-    }
-     
-    .logo{
-        padding-left: 50%;
-    }
-    .logo h2{
-        font-size: 50px;
-    }
+        align-items:center ;
+        background-color: beige;
+     }
 
+    .logo {
+        padding: 15px;
+        margin-left: 20px;
+    }
+    
     .menu{
         margin: 0;
-        padding: 15px 0 0 50%;
-    }
-    .navmenu li a{
-        font-size: 50px;
-
-    }
-  
-
-    /*section uno*/
-    .box1{
-        align-items: center;
-        margin: 15% 20px 5% 20px;
-        width: 100%;
-        
+        padding-left: 20px;
     }
 
-    .box-uno{
-        border-right: 1px solid black;
+    .navitems li{
+       margin: 0;
+    }
+
+
+    .box1 {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+
+    .box-uno,
+    .box-dos {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 20px;
     }
 
     .box-dos{
-        border-left: none;
-        margin: 0;
-        height: 0;
-        font-size: 10px;
-        
-        
+        margin-top: 15px;
     }
+
+    .box-dos p{
+        font-size: 15px;
+        margin: 0;
+    }
+
+  .box2 img{
+    display: none;
+    
+  }
+
+  .box2 .botones{
+    top: 20px;
+    right: 110px;
+
+  }
+
+  .foto img{
+    display: none;
+
+  }
+
+  .letras{
+    text-align: center;
+
+  }
+
+  .letras h2{
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+  }
+
+  .letras .parrafo-uno, .letras .parrafo-dos{
+    margin: 30px 0 0 0;
+    padding: 0;
+    font-size: 15px;
+
+  }
+.letras .parrafo-dos{
+    position: relative;
+    left: 10px;
+    bottom: 70px;
+    
+}
+  .letras i{
+    position: relative;
+     margin: 40px 0 0 0;
+     right: 40px;
+     
+  }
+
+  .botonesdos{
+    left: 25px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+
+  .contenido{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 40px 20px 0 0;
+
+  }
+  .contenido img{
+    display: none;
+  }
+
+  .contenido-uno, .contenido-dos{
+    margin: 0;
+  }
+
+  .contenido-uno h2{
+    font-size: 50px;
+    margin: 0;
+  }
+
+  .contenido-uno p, .contenido-dos p{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+  }
+.contenido-uno h4, .contenido-dos h4{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.contenido-dos h3{
+    padding: 0;
+    margin: 0 0 10px 0;
+   
+}
+
+.contenido-dos{
+    bottom: 20px;
+    left: 20px;
+}
+
+.perfil-dos{
+    margin: 0;
+    padding: 0 50px 0 50px;
+}
+.perfil-dos p{
+    font-size: 15px;
+}
+
+.contenedor-cinco{
+    flex-direction: column;
+}
+
+.caja1{
+    align-items: center;
+    margin: 10px 50px 0 50px;
+}
+
+.caja1 h2{
+    font-size: 50px;
+}
+
+.caja1 p{
+    font-size: 15px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.botonestres{
+    margin: 50px 0 50px 0;
+}
+.caja2{
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.caja2 img{
+    padding-left: 20px;
+}
+
+.caja2 h2{
+    font-size: 20px;
+}
+
+.caja2 p{
+    font-size: 15px;
+}
+
+.footer-contenido{
+    width: 100%;
+    flex-direction: column;
+    
+}
+.footer-contenido .logo-dos{
+   margin: 30px 0 0 0;
+   position: relative;
+   right: 140px;
+   
+}
+
+.logo-dos img{
+    height: 40px;
+    width: 40px;
+}
+
+.logo-dos h2{
+    font-size: 25px;
+    margin: 0 15px 0 15px;
+}
+
+.footer-lista{
+    margin: 15px 15px 15px 15px;
+}
+.footer-lista ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
   
 }
 
+.footer-lista li{
+   
+    padding: 15px;
+}
+
+.footer-info{
+    margin: 0;
+   
+}
+.footer-info ul{
+    display: none;
+
+}
+
+.footer-info .footer-mail input{
+    width: 100px;
+    position: relative;
+    bottom: 140px;
+    left: 100px;
+   margin: 0;
+}
+
+.footer-iconos{
+    display: none;
+}
+
+}
 
 
-
-/*mobile
-@media all and (max-width:480px)
